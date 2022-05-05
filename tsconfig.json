@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "sourceMap": true
+    },
+    // next file will be running, one file at a time. Just type tsc in the terminal to create the js file
+    "files": [
+        "006_Variables.ts"
+    ]
+}
