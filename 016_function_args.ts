@@ -10,6 +10,15 @@
 
 // printAddress('Av siempreviva 123')
 // printAddress('Av siempreviva 123', 'Suite 540')
+// // Default arguments
 // printAddress('Av siempreviva 123', 'Suite 540', 'UT')
 
-// Default arguments
+
+function lineupCard(team: string, ...players: string[]) {
+    console.log('Team: ' + team);
+    for (let player of players) { 
+      console.log(player);
+    }
+}
+  
+lineupCard('Astros', 'Altuve', 'Correra', 'Bregman');
